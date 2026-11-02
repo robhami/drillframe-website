@@ -1,0 +1,8 @@
+# Local safety copies, retained checkouts and review artifacts.
+/backups/
+/repository-review/
+/reconciliation-review/
+/browser-review-profile/
+/browser-review.html
+/website-refresh.diff
+/local-review-*/

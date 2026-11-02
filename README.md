@@ -1,25 +1,19 @@
 # DrillFrame website
 
-A responsive static website for DrillFrame's specialist technical consulting and proprietary engineering software. Web files: `index.html`, `styles.css`, `script.js` and `favicon.svg`.
+Responsive static website for specialist technical consulting and proprietary engineering software. Web files: index.html, styles.css, script.js and favicon.svg.
 
-## Preview locally
+The authoritative working repository is C:\coding\drillframe-website, connected to https://github.com/robhami/drillframe-website.git. Edit the root website files and assets here. repository-review and reconciliation-review are retained historical references, not active working folders. Local backups and review artifacts are excluded by .gitignore. Verify the actual GitHub Pages publishing source before pushing; do not assume the default branch is the publishing branch.
 
-Open `index.html` in a browser, or serve the folder with `python -m http.server 8000` and visit `http://localhost:8000`.
+## Preview and validation
 
-No dependency installation or build step is required. Contact actions use email links; there is no contact form or backend.
+Open index.html in a browser or use a local static HTTP server. No installation or build is required.
 
-## Before publishing
+Before publishing, review service descriptions, Robert Hamilton's profile, module status and JarFrame calculation scope. Retain the preliminary motor-as-collar disclosure alongside the application screenshot and in its enlargement dialog. Check desktop and mobile layouts, keyboard navigation, and email links with a configured mail client. Confirm receipt at rob@drillframe.com. No contact form or backend is included.
 
-- Confirm the name and relevant trademark rights before commercial launch.
-- Check desktop and mobile layouts, keyboard navigation, and email links with a configured mail client. Confirm receipt of a test enquiry at `rob@drillframe.com`.
-- Replace the illustrative hero engineering chart with actual screenshots **only once those screenshots are cleared for public use**.
-- Review all engineering/service descriptions, Robert Hamilton's profile and module development statuses for accuracy. Confirm JarFrame's supported calculation scope and the distinction from preliminary dynamic-impact research.
-- Add privacy policy and cookie controls if deploying analytics or other tracking tools (none are included by default).
+## GitHub Pages
 
-## Deploy to GitHub Pages
+Include all four web files and assets/images in the existing Pages publishing source. Asset paths are relative and static hosting is sufficient. Preserve the existing Pages settings, custom domain, CNAME and DNS configuration. No deployment configuration is included in this workspace snapshot. The engineering application remains a separate deployment.
 
-This is the existing `robhami/drillframe-website` repository. Preserve `CNAME` (`drillframe.com`), existing Pages settings, workflows and DNS configuration. The web assets use relative paths and are suitable for static GitHub Pages hosting.
+The hero uses assets/images/drillframe-application.webp (1912 × 912), converted from the supplied final DrillFrame Demo.png. The original is retained as drillframe-application-original.png. The entire image scales without cropping; click or press Enter to inspect the native-resolution image in a scrollable modal. Close using the Close button, Escape or the backdrop. Without dialog support or JavaScript, the image link opens the WebP directly.
 
-Before publishing, confirm the configured Pages source under repository Settings → Pages. Review the website diff and preview it before authorising any commit, push, merge or deployment. Include `favicon.svg` with the other web files. Test the published site after an authorised release.
-
-Static hosting is sufficient for this marketing site. The engineering app should remain a separate deployment.
+No analytics or tracking are included. Review privacy requirements if adding them later.
